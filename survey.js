@@ -32,3 +32,20 @@ else {
 
 alert ("Thank you for completing this survey.");
 console.log ("Thank you for completing this survey.");
+
+let hName = document.getElementById('name');
+hName.innerHTML = myName;
+console.log(hName);
+
+let hAge = document.getElementById('age');
+hAge.innerHTML = myAge;
+console.log(hAge);
+
+let hColor = document.getElementById('color');
+hColor.innerHTML = favColor;
+console.log(hColor);
+
+let hEmployment = document.getElementById('employment');
+hEmployment.innerHTML = employment;
+console.log(hEmployment);
+
