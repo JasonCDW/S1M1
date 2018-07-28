@@ -2,14 +2,30 @@
 <html>
 <head>
 <style>
-    h1, h5 {
-        font-family: fantasy
+    @font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Blazed.ttf);
+    font-weight: bold;
+}
+    @font-face {
+    font-family: mySecondFont;
+    src: url(fonts/Transformers_Movie.ttf);
+    font-weight: bold;
+}
+    body{
+        background-color: black
     }
     h1{
-        color:aquamarine;
+        font-family: myFirstFont
+    }
+    h1{
+        color:crimson
     }
     h5{
-        color:darkgoldenrod;
+        font-family: mySecondFont
+    }
+    h5{
+        color:rgb(7, 131, 100);
     }
 </style>
     <meta charset="utf-8" />
