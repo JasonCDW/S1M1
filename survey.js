@@ -38,8 +38,7 @@ console.log(employment);
 if (employment === true) {
     alert ("Your name is " + myFName + " " + myLName + ", you are " + myAge + " years old, your favorite color is " + favColor + ", your favorite musician is " + favArtist + " and you are currently employed.")
     console.log ("Your name is " + myFName + " " + myLName + ", you are " + myAge + " years old, your favorite color is " + favColor + ", your favorite musician is " + favArtist + " and you are currently employed.")
-}
-else {
+} else {
     alert ("Your name is " + myFName + " " + myLName + ", you are " + myAge + " years old, your favorite color is " + favColor + ", your favorite musician is " + favArtist + " and you are currently unemployed.")
     console.log ("Your name is " + myFName + " " + myLName + ", you are " + myAge + " years old, your favorite color is " + favColor + ", your favorite musician is " + favArtist + " and you are currently unemployed.")
 }

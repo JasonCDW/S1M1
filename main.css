@@ -28,9 +28,9 @@
         float: left;
     }
     #right{
-        width: calc(55% / 2);
+        width: calc(60% / 2);
         float: left;
     }
     #answer{
-        color: blue
+        color: coral
     }
