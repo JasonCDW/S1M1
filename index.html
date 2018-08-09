@@ -1,33 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-    @font-face {
-    font-family: myFirstFont;
-    src: url(fonts/Starjout.ttf);
-    font-weight: bold;
-}
-    @font-face {
-    font-family: mySecondFont;
-    src: url(fonts/Transformers_Movie.ttf);
-    font-weight: bold;
-}
-    body{
-        background-color: black;
-    }
-    h1{
-        font-family: myFirstFont
-    }
-    h1{
-        color:crimson;
-    }
-    h5{
-        font-family: mySecondFont
-    }
-    h5{
-        color:rgb(5, 135, 100);
-    }
-</style>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sprint 1</title>
@@ -38,12 +11,16 @@
     <img src="images/DICONwht.png" alt="Dicon Logo" width="200" height="45" /> 
     <h1>Code 201 - Sprint 1 Survey:<h1>
     <h5>
-    <p>What is your first name?: </p><span id= 'firstName'></span>
-    <p>What is your last name?: </p><span id= 'lastName'></span>
-    <p>How old are you?: </p><span id= 'age'></span>
-    <p>What is your favorite color?: </p><span id= 'color'></span>
-    <p>Who is your favorite musician?: </p><span id= 'artist'></span>
-    <p>Currently employed? (true or false): </p><span id= 'employment'></span>
+    <div id="left"> 
+        <p>What is your first name?: </p><div id="answer"><span id= 'firstName'></span></div>
+        <p>What is your last name?: </p><div id="answer"><span id= 'lastName'></span></div>
+        <p>How old are you?: </p><div id="answer"><span id= 'age'></span></div>
+    </div>
+    <div id="right">    
+        <p>What is your favorite color?: </p><div id="answer"><span id= 'color'></span></div>
+        <p>Who is your favorite musician?: </p><div id="answer"><span id= 'artist'></span></div>
+        <p>Currently employed? (true or false): </p><div id="answer"><span id= 'employment'></span></div>
+    </div>
     </h5>
 </body>
 <script src="survey.js"></script>
