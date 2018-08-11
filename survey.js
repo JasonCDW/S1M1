@@ -1,3 +1,23 @@
+alert ("Please verify that you are human by answering the following questions.")
+let captchaArray = ["2+5=", "3*4=", "8/2="];
+let answerArray = ["7", "12", "4"]
+
+function captchaFunc() {
+    for (let i = 0; i < captchaArray.length; i++) {
+        let result = prompt(captchaArray[i]);
+        if (answerArray[i] !== result){
+            alert("Sorry, you are not eligible for this survey.")
+            return
+        }
+    }
+    alert ("Welcome, please complete the survey.")
+    surveyFunc();
+
+}
+
+captchaFunc();
+
+function surveyFunc() {
 let myFName = prompt ("What is your first name?");
 while (!myFName) {
     alert ("Please enter a valid first name.");
@@ -69,4 +89,4 @@ console.log(hArtist);
 let hEmployment = document.getElementById('employment');
 hEmployment.innerHTML = employment;
 console.log(hEmployment);
-
+}
