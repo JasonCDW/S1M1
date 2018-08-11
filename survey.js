@@ -12,7 +12,6 @@ function captchaFunc() {
     }
     alert ("Welcome, please complete the survey.")
     surveyFunc();
-
 }
 
 captchaFunc();
